@@ -1,0 +1,112 @@
+/* Elementos gerais */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header e afins */
+header {
+    background-color: gray;
+    padding: 25px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+ul {
+    list-style: none;
+}
+
+.h-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer e afins */
+footer {
+    margin-top: 160px;
+    text-align: center;
+    color: white;
+}
+
+.f-div {
+    background-color: gray;
+    align-items: space-between;
+    padding: 5px;
+}
+
+/* body e afins */
+body {
+    background-image: url("./img/1a72de95681e61b4b81b68c4b0b7f784--black-work.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: bottom right;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.i-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 25%;
+    margin: auto;
+}
+
+.descricao {
+    margin-bottom: 10px;
+}
+
+/* p2 e afins */
+.img-hobbie {
+    width: 120px;
+    height: 120px;
+}
+
+.p2-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 25%;
+    margin: auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.p-item {
+    margin-top: 5px;
+}
+
+/* p3 e afins */
+.p3-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 25%;
+    margin: auto;
+}
+
+.f-item {
+    padding-bottom: 10px;
+}
+
+label {
+    display: flex;
+}
